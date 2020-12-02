@@ -5,6 +5,10 @@
 #include <string>
 using namespace std;
 
+//Proyecto Integrador - Equipo 4 
+//Ricardo Antonio Cervantes Martínez A01745912 
+//Josué Bernardo Villegas Nuño A01751694
+
 class Marca {
     private: 
         Producto producto {};

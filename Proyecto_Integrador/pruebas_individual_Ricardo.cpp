@@ -7,9 +7,7 @@
 #include <string>
 using namespace std;
 
-//Proyecto Integrador - Equipo 4 
-//Ricardo Antonio Cervantes Martínez A01745912 
-//Josué Bernardo Villegas Nuño A01751694
+//Pruebas individual Ricardo Antonio Cervantes Martínez A01745912
 
 int main(){
 
@@ -34,17 +32,18 @@ int main(){
     compra1.confirmar_producto();
     compra1.descartar_producto();
 
+    cout << "Pruebas de Sucursal. n" << endl;
+    Sucursal s1;
+    s1.existencia_producto();
+    s1.seleccionar_sucursal();
+    s1.desplegar_datos();
+
     cout << "Pruebas de Marca.\n" << endl;
     Marca marca1;
     marca1.datos_mercado();
     marca1.desplegar_datos();
     marca1.desplegar_producto(producto1).desplegar_datos();
-
-    //Sucursal s1;
-    //s1.existencia_producto();
-    //s1.seleccionar_sucursal();
-    //s1.desplegar_datos();
-    //m1.desplegar_sucursal(s1).desplegar_datos();  
+    marca1.desplegar_sucursal(s1).desplegar_datos(); 
 
     return 0;
 }

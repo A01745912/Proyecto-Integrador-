@@ -5,6 +5,10 @@
 #include <string>
 using namespace std;
 
+//Proyecto Integrador - Equipo 4 
+//Ricardo Antonio Cervantes Martínez A01745912 
+//Josué Bernardo Villegas Nuño A01751694
+
 class Producto {
     private: 
         string tamanio;
@@ -25,7 +29,7 @@ class Producto {
         }
 
         void desplegar_datos(){
-            cout << "\nDatos del producto. \n" << endl;
+            cout << "\nDATOS DEL PRODUCTO. \n" << endl;
             cout << "Tamanio del producto: " << tamanio << endl;
             cout << "Peso del producto (kg): " << to_string(peso) << " kg" << endl;
             cout << "Costo del producto: $" << to_string(costo) << endl;
@@ -42,7 +46,7 @@ class Producto {
             string u;
             string cat;
             
-            cout << "\nDatos del producto. " << endl;
+            cout << "\nDATOS DEL PRODUCTO. " << endl;
             cout << "Tamanio del producto: "; getline(cin,tam);
             cout << "Peso del producto (kg): "; cin >> p;
             cout << "Costo del producto: "; cin >> cos;

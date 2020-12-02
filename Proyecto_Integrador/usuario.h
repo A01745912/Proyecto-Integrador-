@@ -5,6 +5,10 @@
 #include <string>
 using namespace std;
 
+//Proyecto Integrador - Equipo 4 
+//Ricardo Antonio Cervantes Martínez A01745912 
+//Josué Bernardo Villegas Nuño A01751694
+
 class Usuario{
     private: 
         string nombre;
@@ -34,7 +38,7 @@ class Usuario{
         }
 
         void imprimir_datos (){
-            cout << "\nDatos del usuario. \n" << endl; 
+            cout << "\nDATOS DEL USUARIO. \n" << endl; 
             cout << "Nombre del usuario: " << nombre << endl; 
             cout << "Correo electronico: " << correo_elect << endl;
             cout << "Telefono: " << telefono << endl;
